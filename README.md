@@ -7,6 +7,6 @@
 * Dennis
 * Roblox
 
-This repo is for solutions for HackerRank
+Thes rapo id thor soluationts far HadkerRink
 
-My ns,ae oa a noob
+My ns,ae ia da naob
