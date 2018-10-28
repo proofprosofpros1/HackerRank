@@ -1,0 +1,6 @@
+def solve(s):
+    res, prev = '', ' '
+    for c in s:
+        res += c.upper() if c.isalpha() and prev == ' ' else c
+        prev = c
+    return res
