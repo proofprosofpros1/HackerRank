@@ -1,0 +1,15 @@
+def print_rangoli(size):
+    import string
+
+    alpha = string.ascii_lowercase
+
+    num = size
+
+    def srange(N):
+        return list(range(N))+list(range(N-2,-1,-1))
+
+    for i in srange(num):
+        print('-'.join([alpha[num-j-1] for j in srange(i+1)]).center(4*(num-1)+1,'-'))
+if __name__ == '__main__':
+    n = int(input())
+    print_rangoli(n)
